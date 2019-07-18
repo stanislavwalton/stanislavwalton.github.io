@@ -1,6 +1,4 @@
 *{	-webkit-transition: .7s ease-out;
- 	-moz-transition: .7s ease-out;
- 	-o-transition:  .7s ease-out;
  	transition: .7s ease-out;
     list-style: none;
 }
@@ -74,7 +72,7 @@ HERO AREA
 #hero{
     color: #fff;
     text-align: center;
-    background: url(../img/trianglify-background.svg)no-repeat; /*your background image*/
+    background: url(../img/bg.jpg)no-repeat; /*your background image*/
     background-size: cover;
     max-height: 880px;
     overflow: hidden;
@@ -227,6 +225,7 @@ FOLLOW BUTTON
     padding: 0 3px 0 1px;
     white-space: nowrap;
     background: #e3e3e3;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#dedede));
     background: linear-gradient(top, white, #dedede);
 }
 
@@ -244,6 +243,7 @@ FOLLOW BUTTON
 }
 
 .dribbble-follow-button .label:active {            
+     -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.15) inset;            
      box-shadow: 0 1px 5px rgba(0,0,0,.15) inset;
 }
 
